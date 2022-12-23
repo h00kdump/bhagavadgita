@@ -1,0 +1,12 @@
+.header {
+    background-color: $white;
+    height: 60px;
+    border-bottom: 2px $lightgray;
+    &__logo {
+        font-family: 'Rubik';
+        font-weight: 600;
+        font-style: bold;
+        font-size: 18px;
+        color: $black;
+    }
+}

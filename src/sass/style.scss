@@ -2,9 +2,10 @@
 @import 'libs/bootstrap-reboot';
 @import 'libs/fonts';
 
-@import 'blocks//main';
-@import 'blocks/header';
+@import 'base/variables';
 
+@import 'blocks/main';
+@import 'blocks/header';
 
 
 
