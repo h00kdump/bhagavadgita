@@ -1,0 +1,16 @@
+.main {
+    height: 100vh;
+    background-color: #F5C88B;
+    &__header {
+        font-family: 'Playfair Display';
+        font-weight: 600;
+        font-style: bold;
+        font-size: 66px;
+        color: #161616;
+        background-color: #fff;
+        display: inline-block;
+        border-radius: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

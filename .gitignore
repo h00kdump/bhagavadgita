@@ -13,7 +13,7 @@
 /src/mailer
 
 # mail sending
-/src/mailer
+/dist/mailer
 
 # misc
 .DS_Store

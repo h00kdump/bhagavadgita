@@ -1,12 +1,12 @@
 {
-  "name": "bhagavad",
+  "name": "08_bootstrap",
   "version": "1.0.0",
-  "description": "Descr",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Igor Kanunnikov",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.10",

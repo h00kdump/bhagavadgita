@@ -1,0 +1,22 @@
+
+@import 'libs/bootstrap-reboot';
+@import 'libs/fonts';
+
+@import 'blocks//main';
+@import 'blocks/header';
+
+
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 970px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
