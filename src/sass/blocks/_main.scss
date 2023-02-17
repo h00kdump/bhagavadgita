@@ -1,16 +1,72 @@
 .main {
-    height: 100vh;
+    height: 1220px;
     background-color: $orange;
-    &__header {
-        font-family: 'Playfair Display';
-        font-weight: 600;
-        font-style: bold;
-        font-size: 66px;
-        color: $black;
-        background-color: $white;
-        display: inline-block;
-        border-radius: 100px;
-        padding-left: 10px;
-        padding-right: 10px;
+    background-image: url(../img/lp-img-Prabhupada_b.png);
+    background-position: 50% 100%;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    &__content {
+        position: relative;
+        margin-top: 30%;
     }
+    &__message {
+        &_mt-40 {
+            margin-top: 40px;
+        }
+    }
+    &__header-1 {
+            h2 {
+                display: inline-block;
+                font-family: 'Playfair Display';
+                color: $black;
+                font-weight: 600;
+                font-size: 66px;
+                background-color: $white;
+                border-radius: 50px;
+                line-height: 1.2em;
+                padding: 15px 20px;
+            }
+    }
+    &__header-2 {
+        display: flex;
+        justify-content: flex-end;
+        &_mt-20 {
+            margin-top: 20px;
+        }
+            h3 {
+                display: inline-block;
+                font-family: 'Playfair Display';
+                color: $black;
+                font-weight: 400;
+                font-size: 48px;
+                background-color: $white;
+                border-radius: 50px;
+                line-height: 1.2em;
+                padding: 12px 20px;
+            }
+    }
+    &__header-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            h1 {
+                display: inline-block;
+                font-family: 'Playfair Display';
+                color: $black;
+                font-weight: 600;
+                font-size: 108px;
+                background-color: $white;
+                border-radius: 100px;
+                line-height: 1.2em;
+                padding: 20px 40px;
+            }
+    }
+}
+
+.main.main_pt-60 {
+    padding-top: 60px;
+}
+
+.main .container {
+    height: 100vh;
 }

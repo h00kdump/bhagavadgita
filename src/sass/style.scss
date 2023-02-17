@@ -4,20 +4,45 @@
 
 @import 'base/variables';
 
-@import 'blocks/main';
+@import 'blocks/buttons';
 @import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/poem';
 
 
 
-* {
+/* * {
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
-}
+} */
 
 .container {
     position: relative;
-    max-width: 970px;
+    max-width: 1170px;
     padding: 0 10px;
     margin: 0 auto;
+    /* background-color: lightgray; */
+}
+
+.container.container_width-1440 {
+    position: relative;
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* background-color: lightgray; */
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+        color: $black;
+        text-decoration: none;
+    }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
 }

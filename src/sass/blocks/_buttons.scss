@@ -1,0 +1,59 @@
+/* .playbutton {
+    width: 156px;
+    height: 156px;
+    border-radius: 100%;
+    background-color: hsla(0, 0%, 100%, 0.77);
+    mix-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__108 {
+        width: 108px;
+        height: 108px;
+        background-color: $white;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    &_align-center {
+        margin: 0px auto;
+    }
+} */
+
+.main-playbutton {
+    position: relative;
+    &__bg {
+        width: 156px;
+        height: 156px;
+        border-radius: 100%;
+        background-color: hsla(0, 0%, 100%, 0.77);
+        mix-blend-mode: overlay;
+        &_align-center {
+            margin: 0px auto;
+        }
+    }
+    &__icon {
+        width: 108px;
+        height: 108px;
+        background-color: $white;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_align-center {
+            margin: 0px auto;
+        }
+        &_mt-m132 {
+            margin-top: -132px;
+        }
+        img {
+            margin-left: 10px;
+        }
+    }
+}
+
