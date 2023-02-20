@@ -31,8 +31,13 @@
         width: 156px;
         height: 156px;
         border-radius: 100%;
-        background-color: hsla(0, 0%, 100%, 0.77);
-        mix-blend-mode: overlay;
+        /* background: #FFFFFF;
+        background-blend-mode: overlay;
+        opacity: 0.77; */
+        /* background-color: hsla(0, 0%, 100%, 0.7);
+        mix-blend-mode: overlay; */
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(9px);
         &_align-center {
             margin: 0px auto;
         }
@@ -48,8 +53,12 @@
         &_align-center {
             margin: 0px auto;
         }
-        &_mt-m132 {
-            margin-top: -132px;
+        &_pa-1 {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 24px;
+            z-index: 1;
         }
         img {
             margin-left: 10px;

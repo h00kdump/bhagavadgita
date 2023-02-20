@@ -1,13 +1,32 @@
 .main {
+    position: relative;
     height: 1220px;
     background-color: $orange;
-    background-image: url(../img/lp-img-Prabhupada_b.png);
+    /* background-image: url(../img/lp-img-Prabhupada_b.png);
     background-position: 50% 100%;
     background-size: 1920px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    &__prabhupada {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: auto;
+        display: block;
+        height: 1220px;
+        max-width: 1920px;
+        margin: 0px auto;
+        background-color: $orange;
+        background-image: url(../img/lp-img-Prabhupada_b.png);
+        background-position: 50% -200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
     &__content {
         position: relative;
         margin-top: 30%;
+        z-index: 2;
     }
     &__message {
         &_mt-40 {
@@ -17,7 +36,7 @@
     &__header-1 {
             h2 {
                 display: inline-block;
-                font-family: 'Playfair Display';
+                font-family: 'Playfair Display BoldItalic';
                 color: $black;
                 font-weight: 600;
                 font-size: 66px;
@@ -35,7 +54,7 @@
         }
             h3 {
                 display: inline-block;
-                font-family: 'Playfair Display';
+                font-family: 'Playfair Display Regular';
                 color: $black;
                 font-weight: 400;
                 font-size: 48px;
@@ -51,7 +70,7 @@
         align-items: center;
             h1 {
                 display: inline-block;
-                font-family: 'Playfair Display';
+                font-family: 'Playfair Display BoldItalic';
                 color: $black;
                 font-weight: 600;
                 font-size: 108px;

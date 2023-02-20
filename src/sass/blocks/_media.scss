@@ -1,0 +1,135 @@
+@media (max-width: 1366px) {
+    .main {
+        height: 800px;
+        &__prabhupada {
+            height: 800px;
+            background-position: 50% -100px; 
+        }
+        &__content {
+            margin: 20% auto; 
+            width: 600px;
+        }
+        &__header-1 {
+            h2 {
+                font-size: 32px;
+                padding: 10px 15px;
+            }
+    }
+    &__header-2 {
+        &_mt-20 {
+            margin-top: 10px;
+        }
+            h3 {
+                font-size: 24px;
+                padding: 8px 15px;
+            }
+    }
+    &__header-3 {
+            h1 {
+                font-size: 52px;
+                padding: 15px 28px;
+            }
+    }
+    }
+    .main-playbutton {
+        position: relative;
+        &__bg {
+            width: 100px;
+            height: 100px;
+        }
+        &__icon {
+            width: 70px;
+            height: 70px;
+            &_pa-1 {
+                top: 15px;
+            }
+            img {
+                width: 26px;
+                margin-left: 7px;
+            }
+        }
+    }
+    .header {
+        &__content {
+            height: 50px;
+        }
+        &__logo {
+            font-size: 16px;
+    
+        }
+        &__menuitem {
+            font-size: 14px;
+            &_mr-40 {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 860px) {
+    .main {
+        height: 650px;
+        &__prabhupada {
+            height: 650px;
+            background-position: 50% -80px; 
+        }
+        &__message {
+            &_mt-40 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__menu {
+            display: none;
+        }
+        &__hamburger {
+            display: inline-block;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        height: 600px;
+        &__prabhupada {
+            height: 600px;
+            background-position: 50% 0%; 
+        }
+        &__content {
+            margin: 30% auto; 
+            width: auto;
+            max-width: 400px;
+            padding: 0 5px;
+        }
+        &__message {
+            &_mt-40 {
+                margin-top: 20px;
+            }
+        }
+        &__header-1 {
+            h2 {
+                font-size: 24px;
+                padding: 8px 12px;
+            }
+    }
+    &__header-2 {
+        &_mt-20 {
+            margin-top: 8px;
+        }
+            h3 {
+                font-size: 16px;
+                padding: 6px 12px;
+            }
+    }
+    &__header-3 {
+            h1 {
+                font-size: 42px;
+                padding: 12px 22px;
+            }
+    }
+    }
+}
