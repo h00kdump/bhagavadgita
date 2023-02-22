@@ -116,19 +116,70 @@
                 padding: 8px 12px;
             }
     }
+        &__header-2 {
+            &_mt-20 {
+                margin-top: 8px;
+            }
+                h3 {
+                    font-size: 16px;
+                    padding: 6px 12px;
+                }
+        }
+        &__header-3 {
+                h1 {
+                    font-size: 42px;
+                    padding: 12px 22px;
+                }
+        }
+    }
+    .header {
+        &__p-menuitem {
+            font-size: 24px;
+            &_mb-36 {
+                margin-bottom: 26px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 360px) {
+    .main {
+        height: 520px;
+        &__prabhupada {
+            height: 520px;
+            background-position: 50% 10%; 
+        }
+        &__content {
+            margin: 50% auto; 
+            width: auto;
+            max-width: 400px;
+            padding: 0 5px;
+        }
+        &__message {
+            &_mt-40 {
+                margin-top: 12px;
+            }
+        }
+        &__header-1 {
+            h2 {
+                font-size: 20px;
+                padding: 6px 10px;
+            }
+    }
     &__header-2 {
         &_mt-20 {
             margin-top: 8px;
         }
             h3 {
-                font-size: 16px;
-                padding: 6px 12px;
+                font-size: 15px;
+                padding: 5px 10px;
             }
     }
     &__header-3 {
             h1 {
-                font-size: 42px;
-                padding: 12px 22px;
+                font-size: 32px;
+                padding: 10px 16px;
             }
     }
     }
