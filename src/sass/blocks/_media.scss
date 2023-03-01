@@ -14,22 +14,33 @@
                 font-size: 32px;
                 padding: 10px 15px;
             }
-    }
-    &__header-2 {
-        &_mt-20 {
-            margin-top: 10px;
         }
-            h3 {
-                font-size: 24px;
-                padding: 8px 15px;
+        &__header-2 {
+            &_mt-20 {
+                margin-top: 10px;
             }
-    }
-    &__header-3 {
-            h1 {
-                font-size: 52px;
-                padding: 15px 28px;
+                h3 {
+                    font-size: 24px;
+                    padding: 8px 15px;
+                }
+        }
+        &__header-3 {
+                h1 {
+                    font-size: 52px;
+                    padding: 15px 28px;
+                }
+        }
+        &__go-wrapper {
+            &_mt-88 {
+                margin-top: -196px;
+        }
+        }
+        &__go {
+            img {
+                width: 42px;
+                height: 176px;
             }
-    }
+        }
     }
     .main-playbutton {
         position: relative;
@@ -64,6 +75,23 @@
             }
         }
     }
+    .poem {
+        &__message {
+            &_mt-312 {
+                margin-top: 112px;
+            }
+    
+        }
+        
+    }
+    .playbutton {
+        &__icon {
+            &_pa-1 {
+                left: 24px;
+                top: 30px;
+            }
+        }
+    }
 }
 
 @media (max-width: 860px) {
@@ -79,9 +107,37 @@
             }
         }
     }
+    .playbutton {
+        &__icon {
+            width: 70px;
+            height: 70px;
+            &_pa-1 {
+                left: 22px;
+                top: -8px;
+            }
+            img {
+                margin-left: 6px;
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
+    .main {
+        &__go-wrapper {
+            &_mt-88 {
+                margin-top: -169px;
+        }
+        }
+        &__go {
+            img {
+                width: 42px;
+                height: 176px;
+            }
+        }
+    }
     .header {
         &__menu {
             display: none;
@@ -90,13 +146,25 @@
             display: inline-block;
         }
     }
+    .poem {
+        &__message {
+            width: auto;
+            padding: 0 20px;
+            font-size: 24px;
+            &_mt-312 {
+                margin-top: 112px;
+            }
+    
+        }
+        
+    }
 }
 
 @media (max-width: 600px) {
     .main {
-        height: 600px;
+        height: 550px;
         &__prabhupada {
-            height: 600px;
+            height: 550px;
             background-position: 50% 0%; 
         }
         &__content {
@@ -131,12 +199,33 @@
                     padding: 12px 22px;
                 }
         }
+        &__go-wrapper {
+            display: none;
+        }
     }
     .header {
         &__p-menuitem {
             font-size: 24px;
             &_mb-36 {
                 margin-bottom: 26px;
+            }
+        }
+    }
+    .poem {
+        &__message {
+            width: auto;
+            font-size: 24px;
+            &_mt-312 {
+                margin-top: 60px;
+            }
+    
+        }       
+    }
+    .playbutton {
+        &__icon {
+            &_pa-1 {
+                left: 22px;
+                top: -30px;
             }
         }
     }
@@ -183,4 +272,15 @@
             }
     }
     }
+    .poem {
+        &__message {
+            width: auto;
+            font-size: 18px;
+            &_mt-312 {
+                margin-top: 60px;
+            }
+    
+        }       
+    }
+    
 }

@@ -80,12 +80,29 @@
                 padding: 20px 40px;
             }
     }
+    &__go-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        &_mt-88 {
+            margin-top: 88px;
+            /* z-index: 1; */
+        }
+    }
+    &__go {
+        z-index: 1;
+        img {
+            width: 76px;
+            height: 317px;
+        }
+    }
 }
 
 .main.main_pt-60 {
     padding-top: 60px;
 }
 
-.main .container {
+/* .main .container {
     height: 100vh;
 }
+ */

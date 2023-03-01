@@ -1,5 +1,24 @@
 .poem {
-    height: 100vh;
-    background-color: lightgray;
-    display: none;
+    position: relative;
+    padding: 0px 0px 60px;
+    /* height: 100vh; */
+    background-color: $white;
+    &__message-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__message {
+        font-family: 'Playfair Display BoldItalic'; 
+        text-align: center;
+        font-size: 32px;
+        width: 708px;
+        padding: 0 10px;
+        &_mt-312 {
+            margin-top: 312px;
+        }
+
+    }
+    
 }

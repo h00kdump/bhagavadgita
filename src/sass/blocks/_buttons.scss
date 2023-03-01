@@ -66,3 +66,53 @@
     }
 }
 
+.playbutton {
+    position: relative;
+    &__icon {
+        width: 86px;
+        height: 86px;
+        background-color: $white;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.06);
+        &_align-center {
+            margin: 0px auto;
+        }
+        &_pa-1 {
+            position: absolute;
+            left: 80px;
+            right: 0px;
+            top: 250px;
+            z-index: 1;
+        }
+        img {
+            margin-left: 10px;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.link {
+    position: relative;
+    display: block;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: $black;
+    &_mt-50 {
+        margin-top: 50px;
+    }
+    span {
+        margin-right: 8px;
+    }
+    img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 18px;
+    }
+}
+
