@@ -1,14 +1,16 @@
 .poem {
     position: relative;
-    padding: 0px 0px 60px;
+    padding: 0px 0px 100px;
     /* height: 100vh; */
     background-color: $white;
+    
     &__message-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
     &__message {
         font-family: 'Playfair Display BoldItalic'; 
         text-align: center;
@@ -18,7 +20,131 @@
         &_mt-312 {
             margin-top: 312px;
         }
-
     }
     
+    &__images {
+        position: relative;
+        z-index: 2;
+        &_mt-108 {
+            margin-top: 108px;
+        }
+    }
+    
+    &__oneimage-wrapper {
+        &_1 {
+            width: 370px;
+            height: 486px;
+            background-color: $orange;
+        }
+        &_2 {
+            width: 700px;
+            height: 920px;
+            margin-left: auto;
+            margin-top: -300px;
+            background-color: $violet;
+        }
+        &_3 {
+            width: 454px;
+            height: 596px;
+            margin-left: 140px;
+            margin-top: -420px;
+            background-color: $green;
+        }
+        &_4 {
+            width: 370px;
+            height: 486px;
+            background-color: $orange;
+            margin-left: auto;
+            margin-right: 300px;
+            margin-top: -100px;
+        }
+    }
+    &__oneimage {
+        &_1 {
+            width: 370px;
+            height: 486px;
+            border-top-left-radius: 108px;
+            border-bottom-left-radius: 108px;
+            background-image: url(../img/lp-img-poem1.png);
+            background-position: 0% 0%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+        &_2 {
+            width: 700px;
+            height: 920px;
+            border-top-right-radius: 108px;
+            border-bottom-right-radius: 108px;
+            background-image: url(../img/lp-img-poem2.png);
+            background-position: 0% 0%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+        &_3 {
+            width: 454px;
+            height: 596px;
+            border-top-left-radius: 108px;
+            border-bottom-left-radius: 108px;
+            background-image: url(../img/lp-img-poem3.png);
+            background-position: 0% 0%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+        &_4 {
+            width: 370px;
+            height: 486px;
+            border-top-right-radius: 108px;
+            border-bottom-right-radius: 108px;
+            background-image: url(../img/lp-img-poem4.png);
+            background-position: 0% 0%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+    }
+
+    &__reincarnation {
+        background-color: $violet;
+        &-img-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                display: inline-block;
+                max-width: 100%;
+            }
+        }
+        &-gr {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            right: 0%;
+            bottom: 0px;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(54%, hsla(0, 0%, 100%, 0)));
+            background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 54%);
+        }
+        &_mt-m300 {
+            margin-top: -260px;
+        }
+    }
+    &__book-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__book {
+        width: 630px;
+        height: 975px;
+        border: 10px solid $orange;
+        border-radius: 20px;
+        background-image: url(../img/lp-img-gitabook.png);
+        background-position: 0% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &_mt-m300 {
+            margin-top: -260px;
+        }
+    }
 }
+    
