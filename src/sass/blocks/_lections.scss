@@ -1,0 +1,31 @@
+.lections {
+    height: 100vh;
+    padding-bottom: 80px;
+    background-color: $lightgray;
+    &__header-1 {
+        display: flex;
+        justify-content: flex-start;
+        h3 {
+            display: inline-block;
+            font-family: 'Playfair Display Regular';
+            color: $black;
+            font-weight: 400;
+            font-size: 48px;
+        }
+        &_mt-m40 {
+            margin-top: -40px;
+        }
+    }
+    &__header-2 {
+        display: flex;
+        justify-content: flex-end;
+        h2 {
+            display: inline-block;
+            font-family: 'Playfair Display BoldItalic';
+            color: $black;
+            font-weight: 600;
+            font-size: 66px;
+            line-height: 1.2em;
+        }
+        }
+}
