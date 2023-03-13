@@ -63,9 +63,42 @@
         border-radius: 30px;
         &_1 {
             background-image: url(../img/lp-img-lec_01.png);
-            background-position: 0% 0%;
+            background-position: center center;
             background-size: cover;
             background-repeat: no-repeat;
+        }
+        &_2 {
+            background-image: url(../img/lp-img-lec_02.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_3 {
+            background-image: url(../img/lp-img-lec_03.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_4 {
+            background-image: url(../img/lp-img-lec_04.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_5 {
+            background-image: url(../img/lp-img-lec_05.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_6 {
+            background-image: url(../img/lp-img-lec_06.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &_none {
+            display: none;
         }
     }
     &__name-wrapper {
@@ -81,6 +114,13 @@
     &__name {
         &_ml-30 {
             margin-left: 30px;
+        }
+    }
+    &__links-wrapper {
+        display: flex;
+        justify-content: center;
+        &_mt-30 {
+            margin-top: 30px;
         }
     }
 }

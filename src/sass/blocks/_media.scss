@@ -160,6 +160,43 @@
 
 }
 
+@media screen and (max-width: 991px) {
+    .lections  {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_mt-100 {
+                margin-top: 72px;
+            }
+        }
+        &__col {
+            width: 100%;
+            align-self: stretch;
+            &_mt-88 {
+                margin-top: 0px;
+            }
+        }
+        &__header-1 {
+            h3 {
+                font-size: 24px;
+            }
+            &_mt-m40 {
+                margin-top: -20px;
+            }
+        }
+        &__header-2 {
+            h2 {
+                font-size: 32px;
+            }
+        }
+    }
+    .container.container_width-800 {
+        max-width: 420px;
+    }
+}
+
+
 @media (max-width: 860px) {
     .main {
         height: 650px;
@@ -447,68 +484,7 @@
             &_mt-312 {
                 margin-top: 60px;
             }
-        }
-/*         &__images {
-            &_mt-108 {
-                margin-top: 58px;
-            }
-        }
-        &__oneimage-wrapper {
-            &_1 {
-                width: 140px;
-                height: 184px;
-            }
-            &_2 {
-                width: 265px;
-                height: 349px;
-                margin-left: auto;
-                margin-top: -59px;
-            }
-            &_3 {
-                width: 173px;
-                height: 226px;
-                margin-left: 25px;
-                margin-top: -95px;
-            }
-            &_4 {
-                width: 140px;
-                height: 184px;
-                margin-left: auto;
-                margin-right: 126px;
-                margin-top: -34px;
-            }
-        }
-        &__oneimage {
-            &_1 {
-                width: 140px;
-                height: 184px;
-                }
-            &_2 {
-                width: 265px;
-                height: 349px;
-                }
-            &_3 {
-                width: 173px;
-                height: 226px;
-                }
-            &_4 {
-                width: 140px;
-                height: 184px;
-                }
-        } 
-        &__book {
-            width: 246px;
-            height: 380px;
-            border: 6px solid $orange;
-            &_mt-m300 {
-                margin-top: -88px;
-            }
-        }
-        &__reincarnation {
-            &_mt-m300 {
-                margin-top: -88px;
-            }
-        }   */       
+        }   
     }
     .playbutton {
         &__icon {
@@ -604,6 +580,22 @@
             &_pa-2 {
                 left: 183px;
                 bottom: 244px;
+            }
+        }
+    }
+    .lections {
+        &__one {
+            width: 100%;
+            border-radius: 50px;
+            background-color: $white;
+            padding: 20px;
+            &_mb-50 {
+                margin-bottom: 20px;
+            }
+        }
+        &__list {
+            &_mt-100 {
+                margin-top: 33px;
             }
         }
     }
