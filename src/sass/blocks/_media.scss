@@ -194,6 +194,100 @@
     .container.container_width-800 {
         max-width: 420px;
     }
+    .wts {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background-color: $white;
+        &__header-1 {
+            display: flex;
+            justify-content: flex-start;
+            h3 {
+                font-size: 24px;
+            }
+            &_mt-m40 {
+                margin-top: -40px;
+            }
+            &_fl-st {
+                justify-content: flex-end;
+            }
+        }
+        &__header-2 {
+            display: flex;
+            justify-content: center;
+            h2 {
+                font-size: 32px;
+            }
+        }
+        &__heroes {
+            &_mt-100{
+                margin-top: 30px;
+            }
+        }
+        &__hero-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &_mb-60 {
+                margin-bottom: 60px;
+            }
+        }
+        &__message {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 470px;
+            &_ord-last {
+                order: 0;
+            }
+            h4 {
+                display: inline-block;
+                font-family: 'Playfair Display BoldItalic';
+                color: $black;
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 1.2em;
+                text-align: center;
+            }
+            span {
+                font-family: 'Rubik';
+                font-weight: 400;
+                font-style: normal;
+                font-size: 13px;
+                color: $black;
+                text-align: center;
+                margin-top: 26px;
+                margin-bottom: 50px;
+            }
+            p {
+                font-family: 'Rubik';
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                color: $black;
+                max-width: 30ch;
+                text-align: center;
+            }
+        }
+    }
+    .playbutton {
+        position: relative;
+        &_mt-m54 {
+            margin-top: -54px;
+        }
+        &__icon {
+            &_pa-3 {
+                position: relative;
+                margin: -42px auto 0;
+                left: inherit;
+                top: inherit;
+                right: inherit;
+                bottom: inherit;
+                z-index: 1;
+            }
+        }
+    }
 }
 
 
@@ -584,6 +678,7 @@
         }
     }
     .lections {
+        padding-bottom: 30px;
         &__one {
             width: 100%;
             border-radius: 50px;
@@ -596,6 +691,61 @@
         &__list {
             &_mt-100 {
                 margin-top: 33px;
+            }
+        }
+        &__links-wrapper {
+            &_mt-30 {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .wts {
+        &__heroes {
+            &_mt-100 {
+                margin-top: 24px;
+            }
+        }
+        &__message {
+            width: auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            h4 {
+                font-size: 32px;
+            }
+            span {
+                font-size: 12px;
+                margin-top: 16px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 15px;
+                max-width: 30ch;
+            }
+    
+        }
+        &__photo-wrapper {
+            position: relative;
+            width: 360px;
+            height: 360px;
+    
+        }
+        &__photo {
+            width: 360px;
+            height: 360px;
+        }
+        &__hero-wrapper {
+            &_mb-60 {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .playbutton {
+        position: relative;
+        &__icon {
+            &_pa-3 {
+                margin: -35px auto 0;
             }
         }
     }
@@ -723,6 +873,37 @@
                 left: 183px;
                 bottom: 244px;
             }
+        }
+    }
+
+    .wts {
+        &__message {
+            width: auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            h4 {
+                font-size: 32px;
+            }
+            span {
+                font-size: 12px;
+                margin-top: 16px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 15px;
+                max-width: 30ch;
+            }
+    
+        }
+        &__photo-wrapper {
+            position: relative;
+            width: 300px;
+            height: 300px;
+    
+        }
+        &__photo {
+            width: 300px;
+            height: 300px;
         }
     }
     
