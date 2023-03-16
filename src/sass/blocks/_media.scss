@@ -143,21 +143,7 @@
                 margin-top: -160px;
             }
         }       
-}
-
-    .playbutton {
-        &__icon {
-            &_pa-1 {
-                left: 24px;
-                top: 30px;
-            }
-            &_pa-2 {
-                left: 514px;
-                bottom: 322px;
-            }
-        }
-    }  
-
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -277,6 +263,14 @@
             margin-top: -54px;
         }
         &__icon {
+            &_pa-1 {
+                left: 24px;
+                top: 30px;
+            }
+            &_pa-2 {
+                left: 514px;
+                bottom: 322px;
+            }
             &_pa-3 {
                 position: relative;
                 margin: -42px auto 0;
@@ -286,6 +280,68 @@
                 bottom: inherit;
                 z-index: 1;
             }
+            &_pa-4 {
+                position: relative;
+                margin: -35px auto 0;
+                left: inherit;
+                top: inherit;
+                right: inherit;
+                bottom: inherit;
+                z-index: 1;
+            }
+        }
+    }
+   
+    .prabhupada {
+        &__message-wrapper {
+            margin-left: 0px;
+        }
+        &__loveu {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &__photo-wrapper {
+            position: relative;
+            width: 570px;
+            height: 670px;
+            background-color: $orange;
+        }
+        &__photo {
+            width: 570px;
+            height: 670px;
+            border-top-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+            background-image: url(../img/lp-img-prabhupada_love_u.png);
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+        &__headers {
+            display: none;
+        }
+        &__links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        &__help {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+    }
+    .container.container_width-800.container_hide {
+        display: block;
+    }
+    .footer {
+        &__copyrights {
+            justify-content: center;
         }
     }
 }

@@ -77,6 +77,14 @@
             bottom: auto;
             z-index: 1;
         }
+        &_pa-4 {
+            position: absolute;
+            left: 523px;
+            top: -382px;
+            right: auto;
+            bottom: auto;
+            z-index: 1;
+        }
     }
 }
 
@@ -94,6 +102,9 @@
     &_mt-20 {
         margin-top: 20px;
     }
+    &_mt-10 {
+        margin-top: 10px;
+    }
     span {
         margin-right: 8px;
     }
@@ -101,6 +112,18 @@
         width: 20px;
         height: 20px;
         margin-bottom: 18px;
+    }
+    &-email {
+        font-family: 'Playfair Display Regular';
+        color: $black;
+        font-weight: 400;
+        font-size: 24px;
+        a {
+            font-family: 'Playfair Display Regular';
+            color: $black;
+            font-weight: 400;
+            font-size: 24px;
+        }
     }
 }
 

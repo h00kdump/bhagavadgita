@@ -1,0 +1,9 @@
+.footer {
+    background-color: $white;
+    &__copyrights {
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

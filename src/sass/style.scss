@@ -1,24 +1,12 @@
-
 @import 'libs/bootstrap-reboot';
 @import 'libs/fonts';
-
 @import 'base/variables';
 
-@import 'blocks/buttons';
-@import 'blocks/header';
-@import 'blocks/main';
-@import 'blocks/poem';
-@import 'blocks/lections';
-@import 'blocks/wts';
-
-
-
-
-/* * {
+* {
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
-} */
+} 
 
 .container {
     position: relative;
@@ -49,6 +37,10 @@
     padding: 0px 10px;
 }
 
+.container.container_width-800.container_hide {
+    display: none;
+}
+
 a {
     color: $black;
     text-decoration: none;
@@ -71,5 +63,16 @@ p {
     margin-bottom: 0px;
 }
 
+
+
+
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/poem';
+@import 'blocks/lections';
+@import 'blocks/wts';
+@import 'blocks/prabhupada';
+@import 'blocks/footer';
 
 @import 'blocks/media';
