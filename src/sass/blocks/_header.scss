@@ -54,6 +54,7 @@
         &_show {
             display: block;
         }
+        overflow: auto;
     }
     &__p-menu-wrapper {
         height: 100vh;
@@ -67,6 +68,8 @@
     &__p-menu {
         margin: 0px auto;
         width: 500px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     &__p-menuitem {
         display: block;
