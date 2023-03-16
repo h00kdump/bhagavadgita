@@ -7,6 +7,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        &_mt-40 {
+            margin-top: 40px;
+        }
     }
     &__photo-wrapper {
         position: relative;
