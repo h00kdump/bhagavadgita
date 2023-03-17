@@ -1,5 +1,6 @@
 
 .main-playbutton {
+    cursor: pointer;
     &__bg {
         width: 156px;
         height: 156px;
@@ -36,6 +37,7 @@
 
 .playbutton {
     position: relative;
+    cursor: pointer;
     &_mt-m54 {
         margin-top: -54px;
     }
@@ -53,9 +55,8 @@
         }
         &_pa-1 {
             position: absolute;
-            left: 80px;
-            right: 0px;
-            top: 250px;
+            left: 100px;
+            top: 191px;
             z-index: 1;
         }
         img {

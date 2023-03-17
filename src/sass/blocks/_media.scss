@@ -60,6 +60,45 @@
             }
         }
     }
+
+    .playbutton {
+        &__icon {
+            &_align-center {
+                margin: 0px auto;
+            }
+            &_pa-1 {
+                position: absolute;
+                left: 100px;
+                top: -10px;
+                z-index: 1;
+            }
+            &_pa-2 {
+                position: absolute;
+                left: 435px;
+                bottom: 429px;
+                z-index: 1;
+            }
+            &_pa-3 {
+                position: absolute;
+                left: -43px;
+                top: -278px;
+                right: auto;
+                bottom: auto;
+                z-index: 1;
+            }
+            &_pa-4 {
+                position: absolute;
+                left: 523px;
+                top: -382px;
+                right: auto;
+                bottom: auto;
+                z-index: 1;
+            }
+        }
+    }
+    
+    
+
     .header {
         &__content {
             height: 50px;
@@ -75,6 +114,7 @@
             }
         }
     }
+
     .poem {
         padding: 0px 0px 100px;
         &__message {
@@ -662,10 +702,6 @@
             &_pa-1 {
                 left: 22px;
                 top: -30px;
-            }
-            &_pa-2 {
-                left: 183px;
-                bottom: 244px;
             }
         }
     }

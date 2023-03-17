@@ -38,6 +38,7 @@
     }
     &__hamburger {
         display: none;
+        cursor: pointer;
     }
     &__popupmenu {
         display: none;
@@ -87,6 +88,9 @@
         display: flex;
         justify-content: right;
         align-items: center;
+    }
+    &__bt-close {
+        cursor: pointer;
     }
 
 }
