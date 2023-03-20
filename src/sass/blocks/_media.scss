@@ -59,6 +59,16 @@
                 margin-left: 7px;
             }
         }
+        &__img {
+            width: 26px;
+            height: 26px;
+            translate: 4px;
+            &_pause {
+                width: 26px;
+                height: 26px;
+                translate: 0px;
+            }
+        }
     }
 
     .playbutton {
@@ -408,6 +418,16 @@
         }
     }
     .playbutton {
+        &__img {
+            width: 24px;
+            height: 24px;
+            translate: 3px;
+            &_pause {
+                width: 24px;
+                height: 24px;
+                translate: 0px;
+            }
+        }
         &__icon {
             width: 70px;
             height: 70px;

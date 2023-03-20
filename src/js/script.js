@@ -36,12 +36,32 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const playButtons = [
     {
-        selector: '.main-playbutton__icon',
-        audio: 'audio/28_01_1975_Токио_БГ_16_08_Мы_просто_хотим_вас_спасти.mp3'
+        selector: '#audio1',
+        audio: 'audio/19_02_1974_Бомбей_БГ_07_04_Материя_происходит_от_живого.mp3'
     },
     {
-        selector: '.playbutton__icon',
-        audio: 'audio/29_01_1975_Гавайи_БГ_16_01_03_Мы_не_тело.mp3'
+        selector: '#audio2',
+        audio: 'audio/1973_Лондон_Глава_2_Текcт 21_22.mp3'
+    },
+    {
+        selector: '#audio3',
+        audio: 'audio/11_03_1975_Лондон_БГ_07_03_Господин,_кем_вы_будете_в_следующей_жизни.mp3'
+    },
+    {
+        selector: '#audio4',
+        audio: 'audio/Бхагавад_гита_Как_она_есть_В_переводе_Шрилы_Прабхупады.mp3'
+    },
+    {
+        selector: '#audio5',
+        audio: 'audio/Джордж_Харрисон_из_Битлз_о_маха-мантре_Харе_Кришна.mp3'
+    },
+    {
+        selector: '#audio6',
+        audio: 'audio/Уилл_Смит_и_Бхагават_Гита.mp3'
+    },
+    {
+        selector: '#audio7',
+        audio: 'audio/07_03_1974_Майяпур_Золото_лучше_навоза.mp3'
     }
 ]
 

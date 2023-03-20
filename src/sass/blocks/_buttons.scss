@@ -33,6 +33,24 @@
             margin-left: 10px;
         }
     }
+    &__img {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/lp-icons-play.svg);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        translate: 5px;
+        &_pause {
+            width: 40px;
+            height: 40px;
+            background-image: url(../img/lp-icons-pause.svg);
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            translate: 0px;
+        }
+    }
 }
 
 .playbutton {
@@ -85,6 +103,24 @@
             right: auto;
             bottom: auto;
             z-index: 1;
+        }
+    }
+    &__img {
+        width: 32px;
+        height: 32px;
+        background-image: url(../img/lp-icons-play.svg);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        translate: 4px;
+        &_pause {
+            width: 32px;
+            height: 32px;
+            background-image: url(../img/lp-icons-pause.svg);
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            translate: 0px;
         }
     }
 }
