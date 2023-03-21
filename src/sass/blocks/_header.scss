@@ -13,14 +13,11 @@
         flex-shrink: 1;
         flex-basis: 0%;
     }
+    &__logo-wrapper {
+        margin-bottom: 2px;
+    }
     &__logo {
-        display: inline-block;
-        font-family: 'Rubik';
-        font-weight: 600;
-        font-style: bold;
-        font-size: 18px;
-        color: $black;
-
+        width: 114px;
     }
     &__menu {
         display: inline-block;
