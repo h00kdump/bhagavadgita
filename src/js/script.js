@@ -34,7 +34,198 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-const playButtons = [
+var Audio_1 = document.getElementById("Audio_1");
+var play_ic1 = document.getElementById("play_ic1");
+
+var Audio_2 = document.getElementById("Audio_2");
+var play_ic2 = document.getElementById("play_ic2");
+
+var Audio_3 = document.getElementById("Audio_3");
+var play_ic3 = document.getElementById("play_ic3");
+
+var Audio_4 = document.getElementById("Audio_4");
+var play_ic4 = document.getElementById("play_ic4");
+
+var Audio_5 = document.getElementById("Audio_5");
+var play_ic5 = document.getElementById("play_ic5");
+
+var Audio_6 = document.getElementById("Audio_6");
+var play_ic6 = document.getElementById("play_ic6");
+
+var Audio_7 = document.getElementById("Audio_7");
+var play_ic7 = document.getElementById("play_ic7");
+
+play_ic1.onclick = function() {
+    if(Audio_1.paused) {
+        Audio_1.play();
+        play_ic1.src = "img/lp-icons-pause_b.svg";
+
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic2.onclick = function() {
+    if(Audio_2.paused) {
+        Audio_2.play();
+        play_ic2.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic3.onclick = function() {
+    if(Audio_3.paused) {
+        Audio_3.play();
+        play_ic3.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic4.onclick = function() {
+    if(Audio_4.paused) {
+        Audio_4.play();
+        play_ic4.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic5.onclick = function() {
+    if(Audio_5.paused) {
+        Audio_5.play();
+        play_ic5.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic6.onclick = function() {
+    if(Audio_6.paused) {
+        Audio_6.play();
+        play_ic6.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+play_ic7.onclick = function() {
+    if(Audio_7.paused) {
+        Audio_7.play();
+        play_ic7.src = "img/lp-icons-pause_b.svg";
+
+        Audio_1.pause();
+        play_ic1.src = "img/lp-icons-play_b.svg";
+        Audio_2.pause();
+        play_ic2.src = "img/lp-icons-play_b.svg";
+        Audio_3.pause();
+        play_ic3.src = "img/lp-icons-play_b.svg";
+        Audio_4.pause();
+        play_ic4.src = "img/lp-icons-play_b.svg";
+        Audio_5.pause();
+        play_ic5.src = "img/lp-icons-play_b.svg";
+        Audio_6.pause();
+        play_ic6.src = "img/lp-icons-play_b.svg";
+    }
+    else {
+        Audio_7.pause();
+        play_ic7.src = "img/lp-icons-play_b.svg";
+    }
+}
+
+
+
+/* const playButtons = [
     {
         selector: '#audio1',
         audio: 'audio/19_02_1974_Бомбей_БГ_07_04_Материя_происходит_от_живого.mp3'
@@ -78,4 +269,4 @@ playButtons.forEach(({ selector, audio }) =>
                 player.play()
             })
     })
-)
+) */

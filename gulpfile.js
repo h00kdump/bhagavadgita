@@ -33,6 +33,7 @@ gulp.task('watch', function() {
     gulp.watch("src/*.html").on('change', gulp.parallel('html'));
 
     gulp.watch("src/js/**/*.js").on('change', gulp.parallel('scripts'));
+    gulp.watch("src/img/**/*").on('change', gulp.parallel('images'));
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
 })
