@@ -13,11 +13,27 @@
         flex-shrink: 1;
         flex-basis: 0%;
     }
+    &__partone-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    &__social {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
     &__logo-wrapper {
         margin-bottom: 2px;
     }
     &__logo {
         width: 114px;
+    }
+    &__separator {
+        display: inline-block;
+        width: 1px;
+        height: 40px;
+        background-color: $lightgray;
     }
     &__menu {
         display: inline-block;
