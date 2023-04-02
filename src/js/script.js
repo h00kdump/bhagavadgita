@@ -45,7 +45,8 @@ const playButtons = [
     },
     {
         selector: '#audio3',
-        audio: 'audio/11_03_1975_Лондон_БГ_07_03_Господин,_кем_вы_будете_в_следующей_жизни.mp3'
+        audio:
+            'audio/11_03_1975_Лондон_БГ_07_03_Господин,_кем_вы_будете_в_следующей_жизни.mp3'
     },
     {
         selector: '#audio4',
@@ -65,17 +66,43 @@ const playButtons = [
     }
 ]
 
-let player
+const iconToggler = button => {
+    const icon = button.querySelector('.playbutton__img, .playbutton__img_pause')
+    return () =>
+        icon.className === 'playbutton__img'
+            ? (icon.className = 'playbutton__img_pause')
+            : (icon.className = 'playbutton__img')
+}
 
-playButtons.forEach(({ selector, audio }) =>
+let previousPlayer
+
+const pausePreviousPlayer = player => {
+    if (previousPlayer != player) return
+
+    previousPlayer && previousPlayer.pause()
+    previousPlayer = player
+}
+
+const createPlayer = (audio, button) => {
+    const player = new Audio(audio)
+    const toggleIcon = iconToggler(document.querySelector(button))
+    const toggle = () => {
+        toggleIcon()
+        player.paused ? player.play() : player.pause()
+        pausePreviousPlayer(player)
+    }
+
+    return toggle
+}
+
+playButtons.forEach(({ selector, audio }) => {
+    const togglePlayer = createPlayer(audio, selector)
+    const button = document.querySelector(selector)
+
     window.addEventListener('DOMContentLoaded', () => {
-        const button = document.querySelector(selector)
-        button &&
-            button.addEventListener('click', event => {
-                event.preventDefault()
-                player && player.pause()
-                player = new Audio(audio)
-                player.play()
-            })
+        button.addEventListener('click', event => {
+            event.preventDefault()
+            togglePlayer()
+        })
     })
-)
+})
