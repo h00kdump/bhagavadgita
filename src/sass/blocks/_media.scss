@@ -3,7 +3,8 @@
         height: 800px;
         &__prabhupada {
             height: 800px;
-            background-position: 50% -100px; 
+            background-position: 50% -100px;
+            background-image: url(../img/lp-img-Prabhupada_m.png); 
         }
         &__content {
             margin: 20% auto; 
@@ -49,8 +50,8 @@
             height: 100px;
         }
         &__icon {
-            width: 70px;
-            height: 70px;
+            width: 72px;
+            height: 72px;
             &_pa-1 {
                 top: 15px;
             }
@@ -122,6 +123,9 @@
             &_mr-40 {
                 margin-right: 20px;
             }
+        }
+        &__separator {
+            height: 32px;
         }
     }
 
@@ -197,6 +201,18 @@
 }
 
 @media screen and (max-width: 991px) {
+    .header {
+        &__partone-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        &__social {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
     .lections  {
         &__list {
             display: flex;
@@ -405,6 +421,14 @@
 
 
 @media (max-width: 860px) {
+    .header {
+        &__menuitem {
+            &_mr-40 {
+                margin-right: 16px;
+            }
+        }
+    }
+
     .main {
         height: 650px;
         &__prabhupada {
@@ -429,8 +453,8 @@
             }
         }
         &__icon {
-            width: 70px;
-            height: 70px;
+            width: 72px;
+            height: 72px;
             &_pa-1 {
                 left: 22px;
                 top: -8px;
@@ -624,8 +648,8 @@
     }
     .playbutton {
         &__icon {
-            width: 70px;
-            height: 70px;
+            width: 72px;
+            height: 72px;
             &_pa-1 {
                 left: 22px;
                 top: -8px;
