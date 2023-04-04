@@ -21,32 +21,31 @@ window.addEventListener('DOMContentLoaded', () => {
 const playButtons = [
     {
         selector: '#audio1',
-        audio: 'audio/19_02_1974_Бомбей_БГ_07_04_Материя_происходит_от_живого.mp3'
+        audio: 'audio/sound1.mp3'
     },
     {
         selector: '#audio2',
-        audio: 'audio/1973_Лондон_Глава_2_Текcт 21_22.mp3'
+        audio: 'audio/sound2.mp3'
     },
     {
         selector: '#audio3',
-        audio:
-            'audio/11_03_1975_Лондон_БГ_07_03_Господин,_кем_вы_будете_в_следующей_жизни.mp3'
+        audio: 'audio/sound3.mp3'
     },
     {
         selector: '#audio4',
-        audio: 'audio/Бхагавад_гита_Как_она_есть_В_переводе_Шрилы_Прабхупады.mp3'
+        audio: 'audio/sound4.mp3'
     },
     {
         selector: '#audio5',
-        audio: 'audio/Джордж_Харрисон_из_Битлз_о_маха-мантре_Харе_Кришна.mp3'
+        audio: 'audio/sound5.mp3'
     },
     {
         selector: '#audio6',
-        audio: 'audio/Уилл_Смит_и_Бхагават_Гита.mp3'
+        audio: 'audio/sound6.mp3'
     },
     {
         selector: '#audio7',
-        audio: 'audio/07_03_1974_Майяпур_Золото_лучше_навоза.mp3'
+        audio: 'audio/sound7.mp3'
     }
 ]
 
@@ -112,7 +111,7 @@ playButtons.forEach(({ selector, audio }) => {
 }) */
 
 
-<!-- 
+/*
 var Audio_1 = document.getElementById("Audio_1");
 var play_ic1 = document.getElementById("play_ic1");
 
@@ -300,4 +299,4 @@ play_ic7.onclick = function() {
         Audio_7.pause();
         play_ic7.src = "img/lp-icons-play_b.svg";
     }
-} -->
+} */
