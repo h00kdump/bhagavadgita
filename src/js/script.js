@@ -1,4 +1,3 @@
-
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.header__popupmenu'),
         menuItem = document.querySelectorAll(
@@ -16,7 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
-
 
 const playButtons = [
     {
@@ -59,38 +57,37 @@ const iconToggler = button => {
 
 let previousPlayer
 
-const pausePreviousPlayer = player => {
-    if (previousPlayer != player) return
+const togglePreviousPlayer = player => {
+    if (previousPlayer === player) return
 
-    previousPlayer && previousPlayer.pause()
+    previousPlayer && previousPlayer()
     previousPlayer = player
 }
 
 const createPlayer = (audio, button) => {
     const player = new Audio(audio)
-    const toggleIcon = iconToggler(document.querySelector(button))
+    const toggleIcon = iconToggler(button)
+
     const toggle = () => {
         toggleIcon()
         player.paused ? player.play() : player.pause()
-        pausePreviousPlayer(player)
     }
 
     return toggle
 }
 
 playButtons.forEach(({ selector, audio }) => {
-    const togglePlayer = createPlayer(audio, selector)
     const button = document.querySelector(selector)
+    const togglePlayer = createPlayer(audio, button)
 
     window.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', event => {
             event.preventDefault()
             togglePlayer()
+            togglePreviousPlayer(togglePlayer)
         })
     })
-
 })
-
 
 /* window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu'),
@@ -109,7 +106,6 @@ playButtons.forEach(({ selector, audio }) => {
         })
     })
 }) */
-
 
 /*
 var Audio_1 = document.getElementById("Audio_1");
