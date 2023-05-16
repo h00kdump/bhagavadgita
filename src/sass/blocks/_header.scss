@@ -54,10 +54,11 @@
         cursor: pointer;
     }
     &__popupmenu {
-        display: none;
+        /* display: none; */
+        right: -100%;
         position: fixed;
-        left: 0px;
-        right: 0px;
+        /* left: 0px; */
+        right: calc(-100% - 20px);
         top: 0px;
         bottom: auto;
         width: 100vw;
@@ -66,7 +67,8 @@
         background-color: $green;
         transition: 0.6s all;
         &_show {
-            display: block;
+            /* display: block; */
+            right: 0px;
         }
         overflow: auto;
     }
