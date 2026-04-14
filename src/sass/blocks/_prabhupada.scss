@@ -1,5 +1,7 @@
+@use "../base/variables";
+
 .prabhupada {
-    background-color: $lightgray;
+    background-color: variables.$lightgray;
     &__message-wrapper {
         margin-left: 70px;
     }
@@ -15,14 +17,14 @@
         position: relative;
         width: 570px;
         height: 670px;
-        background-color: $orange;
+        background-color: variables.$orange;
     }
     &__photo {
         width: 570px;
         height: 670px;
         border-top-right-radius: 100%;
         border-bottom-right-radius: 100%;
-        background-image: url(../img/lp-img-prabhupada_love_u.png);
+        background-image: url(../img/webp/lp-img-prabhupada_love_u.webp);
         background-position: 50% 50%;
         background-size: cover;
     }
@@ -32,7 +34,7 @@
         h3 {
             display: inline-block;
             font-family: 'Playfair Display Regular';
-            color: $black;
+            color: variables.$black;
             font-weight: 400;
             font-size: 48px;
         }
@@ -49,7 +51,7 @@
         h2 {
             display: inline-block;
             font-family: 'Playfair Display BoldItalic';
-            color: $black;
+            color: variables.$black;
             font-weight: 600;
             font-size: 66px;
             line-height: 1.2em;

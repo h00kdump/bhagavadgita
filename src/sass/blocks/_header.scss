@@ -1,6 +1,8 @@
+@use "../base/variables";
+
 .header {
-    background-color: $white;
-    border-bottom: 2px solid $lightgray;
+    background-color: variables.$white;
+    border-bottom: 2px solid variables.$lightgray;
     position: fixed;
     z-index: 3;
     width: 100vw;
@@ -33,7 +35,7 @@
         display: inline-block;
         width: 1px;
         height: 40px;
-        background-color: $lightgray;
+        background-color: variables.$lightgray;
     }
     &__menu {
         display: inline-block;
@@ -44,7 +46,7 @@
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
-        color: $black;
+        color: variables.$black;
         &_mr-40 {
             margin-right: 40px;
         }
@@ -63,7 +65,7 @@
         width: 100vw;
         height: 100vh;
         z-index: 99;
-        background-color: $green;
+        background-color: variables.$green;
         transition: 0.6s all;
         &_show {
             display: block;
@@ -88,7 +90,7 @@
     &__p-menuitem {
         display: block;
         font-family: 'Playfair Display Bold';
-        color: $black;
+        color: variables.$black;
         font-weight: 600;
         font-size: 34px;
         line-height: 1.2em;

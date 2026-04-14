@@ -1,5 +1,7 @@
+@use "../base/variables";
+
 .footer {
-    background-color: $white;
+    background-color: variables.$white;
     &__copyrights {
         height: 80px;
         display: flex;

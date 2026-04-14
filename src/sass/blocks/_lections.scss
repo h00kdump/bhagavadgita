@@ -1,13 +1,15 @@
+@use "../base/variables";
+
 .lections {
     padding-bottom: 80px;
-    background-color: $lightgray;
+    background-color: variables.$lightgray;
     &__header-1 {
         display: flex;
         justify-content: flex-start;
         h3 {
             display: inline-block;
             font-family: 'Playfair Display Regular';
-            color: $black;
+            color: variables.$black;
             font-weight: 400;
             font-size: 48px;
         }
@@ -21,7 +23,7 @@
         h2 {
             display: inline-block;
             font-family: 'Playfair Display BoldItalic';
-            color: $black;
+            color: variables.$black;
             font-weight: 600;
             font-size: 66px;
             line-height: 1.2em;
@@ -51,7 +53,7 @@
     &__one {
         width: 470px;
         border-radius: 50px;
-        background-color: $white;
+        background-color: variables.$white;
         padding: 20px;
         &_mb-50 {
             margin-bottom: 50px;
@@ -59,7 +61,7 @@
     }
     &__img {
         height: 242px;
-        background-color: $orange;
+        background-color: variables.$orange;
         border-radius: 30px;
         &_1 {
             background-image: url(../img/lp-img-lec_01.png);

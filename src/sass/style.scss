@@ -1,6 +1,7 @@
-@import 'libs/bootstrap-reboot';
-@import 'libs/fonts';
-@import 'base/variables';
+@use "sass:meta";
+@use 'libs/bootstrap-reboot';
+@use 'libs/fonts';
+@use 'base/variables';
 
 * {
     font-family: 'Rubik', sans-serif;
@@ -42,10 +43,10 @@
 }
 
 a {
-    color: $black;
+    color: variables.$black;
     text-decoration: none;
     &:hover {
-        color: $black;
+        color: variables.$black;
         text-decoration: none;
     }
 
@@ -66,13 +67,13 @@ p {
 
 
 
-@import 'blocks/buttons';
-@import 'blocks/header';
-@import 'blocks/main';
-@import 'blocks/poem';
-@import 'blocks/lections';
-@import 'blocks/wts';
-@import 'blocks/prabhupada';
-@import 'blocks/footer';
+@include meta.load-css('blocks/buttons');
+@include meta.load-css('blocks/header');
+@include meta.load-css('blocks/main');
+@include meta.load-css('blocks/poem');
+@include meta.load-css('blocks/lections');
+@include meta.load-css('blocks/wts');
+@include meta.load-css('blocks/prabhupada');
+@include meta.load-css('blocks/footer');
 
-@import 'blocks/media';
+@include meta.load-css('blocks/media');
