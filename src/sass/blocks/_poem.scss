@@ -1,8 +1,10 @@
+@use "../base/variables";
+
 .poem {
     position: relative;
     padding: 0px 0px 100px;
     /* height: 100vh; */
-    background-color: $white;
+    background-color: variables.$white;
     
     &__message-wrapper {
         display: flex;
@@ -34,26 +36,26 @@
         &_1 {
             width: 370px;
             height: 486px;
-            background-color: $orange;
+            background-color: variables.$orange;
         }
         &_2 {
             width: 700px;
             height: 920px;
             margin-left: auto;
             margin-top: -300px;
-            background-color: $violet;
+            background-color: variables.$violet;
         }
         &_3 {
             width: 454px;
             height: 596px;
             margin-left: 140px;
             margin-top: -420px;
-            background-color: $green;
+            background-color: variables.$green;
         }
         &_4 {
             width: 370px;
             height: 486px;
-            background-color: $orange;
+            background-color: variables.$orange;
             margin-left: auto;
             margin-right: 300px;
             margin-top: -100px;
@@ -65,7 +67,7 @@
             height: 486px;
             border-top-left-radius: 108px;
             border-bottom-left-radius: 108px;
-            background-image: url(../img/lp-img-poem1.png);
+            background-image: url(../img/webp/lp-img-poem1.webp);
             background-position: 0% 0%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -75,7 +77,7 @@
             height: 920px;
             border-top-right-radius: 108px;
             border-bottom-right-radius: 108px;
-            background-image: url(../img/lp-img-poem2.png);
+            background-image: url(../img/webp/lp-img-poem2.webp);
             background-position: 0% 0%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -85,7 +87,7 @@
             height: 596px;
             border-top-left-radius: 108px;
             border-bottom-left-radius: 108px;
-            background-image: url(../img/lp-img-poem3.png);
+            background-image: url(../img/webp/lp-img-poem3.webp);
             background-position: 0% 0%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -95,7 +97,7 @@
             height: 486px;
             border-top-right-radius: 108px;
             border-bottom-right-radius: 108px;
-            background-image: url(../img/lp-img-poem4.png);
+            background-image: url(../img/webp/lp-img-poem4.webp);
             background-position: 0% 0%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -103,7 +105,7 @@
     }
 
     &__reincarnation {
-        background-color: $violet;
+        background-color: variables.$violet;
         &-img-wrapper {
             position: relative;
             display: flex;
@@ -136,9 +138,9 @@
     &__book {
         width: 630px;
         height: 975px;
-        border: 10px solid $orange;
+        border: 10px solid variables.$orange;
         border-radius: 20px;
-        background-image: url(../img/lp-img-gitabook.png);
+        background-image: url(../img/webp/lp-img-gitabook.webp);
         background-position: 0% 0%;
         background-size: cover;
         background-repeat: no-repeat;

@@ -1,11 +1,9 @@
+@use "../base/variables";
+
 .main {
     position: relative;
     height: 1220px;
-    background-color: $orange;
-    /* background-image: url(../img/lp-img-Prabhupada_b.png);
-    background-position: 50% 100%;
-    background-size: 1920px;
-    background-repeat: no-repeat; */
+    background-color: variables.$orange;
     &__prabhupada {
         position: absolute;
         left: 0%;
@@ -16,8 +14,8 @@
         height: 1220px;
         max-width: 1920px;
         margin: 0px auto;
-        background-color: $orange;
-        background-image: url(../img/lp-img-Prabhupada_b.webp);
+        background-color: variables.$orange;
+        background-image: url(../img/webp/lp-img-Prabhupada_b.webp);
         background-position: 50% -200px;
         background-size: contain;
         background-repeat: no-repeat;
@@ -37,10 +35,10 @@
             h2 {
                 display: inline-block;
                 font-family: 'Playfair Display BoldItalic';
-                color: $black;
+                color: variables.$black;
                 font-weight: 600;
                 font-size: 66px;
-                background-color: $white;
+                background-color: variables.$white;
                 border-radius: 50px;
                 line-height: 1.2em;
                 padding: 15px 20px;
@@ -55,10 +53,10 @@
             h3 {
                 display: inline-block;
                 font-family: 'Playfair Display Regular';
-                color: $black;
+                color: variables.$black;
                 font-weight: 400;
                 font-size: 48px;
-                background-color: $white;
+                background-color: variables.$white;
                 border-radius: 50px;
                 line-height: 1.2em;
                 padding: 12px 20px;
@@ -71,10 +69,10 @@
             h1 {
                 display: inline-block;
                 font-family: 'Playfair Display BoldItalic';
-                color: $black;
+                color: variables.$black;
                 font-weight: 600;
                 font-size: 108px;
-                background-color: $white;
+                background-color: variables.$white;
                 border-radius: 100px;
                 line-height: 1.2em;
                 padding: 20px 40px;
